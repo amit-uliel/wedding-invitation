@@ -140,3 +140,44 @@ h1 {
   border: 1px solid #d5e3f2;
   margin-bottom: 10px;
 }
+
+.gifts {
+  margin-top: 35px;
+}
+.gifts h2 {
+  margin-bottom: 10px;
+}
+.gift-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px auto;
+  max-width: 280px;
+}
+.gift-button {
+  display: block;
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gift-button:hover {
+  transform: translateY(-2px);
+}
+.bit-button {
+  background-color: #7b61ff;
+  color: white;
+  box-shadow: 0 4px 10px rgba(123, 97, 255, 0.25);
+}
+.paybox-button {
+  background-color: #00a8e8;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 168, 232, 0.25);
+}
+.gift-note {
+  font-size: 14px;
+  margin-top: 15px;
+}
